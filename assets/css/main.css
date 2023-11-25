@@ -925,11 +925,11 @@ footer .logo * {
 }
 
 .ohioSlider .swiper {
-  overflow: visible;
+  padding-bottom: 50px;
 }
 
 .ohioSlider .swiper .swiper-button-next {
-  bottom: -50px;
+  bottom: 0;
   top: initial;
   height: auto;
 }
@@ -937,7 +937,7 @@ footer .logo * {
 .ohioSlider .swiper .swiper-button-prev {
   right: 60px;
   left: initial;
-  bottom: -50px;
+  bottom: 0;
   top: initial;
   height: auto;
 }
@@ -950,7 +950,7 @@ footer .logo * {
 
 .ohioSlider .swiper .swiper-pagination-progressbar {
   top: initial;
-  bottom: -50px;
+  bottom: 0;
   width: 80%;
 }
 
